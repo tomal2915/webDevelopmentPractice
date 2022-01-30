@@ -22,19 +22,15 @@ div{
     //font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-#sec{
-    background-color: rgb(231, 207, 207);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 .t{
     background-color: cornflowerblue;
     font-family: fantasy;
 }
-a{
+/* a{
     background-color: cornflowerblue;
     width: 10%;
     font-family: monospace;
-}
+} */
 img{
     width: 250px;
     height: 300px;
@@ -48,4 +44,7 @@ ul{
     border: mintcream solid 5px;
     background-color: peru;
     border-radius: 20px;
+}
+li:nth-child(2n){
+    background-color: rgb(146, 146, 168);
 }

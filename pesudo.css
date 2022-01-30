@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(233, 164, 164);
+}
+input:focus{
+    color: rgb(17, 0, 255);
+}
+a:visited{
+    color: rgb(62, 46, 92);
+}
+h1::after{
+    content: " Hello";
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
